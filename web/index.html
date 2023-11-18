@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>EcheriFacilement - Votre Plateforme de Vente en Ligne</title>
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+      <style>
+        body {
+            padding-top: 56px; /* Ajuster en fonction de la hauteur de la barre de navigation */
+        }
+        #body1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+
+        .navbar {
+            padding: 30px;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar-nav {
+            font-size: 18px;
+        }
+
+        .jumbotron {
+            background-image: url('img/venteLigne.jpg');
+            background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 500px; /* Ajustez la hauteur selon vos besoins */
+        }
+
+        .cta-button {
+            font-size: 18px;
+            margin-top: 60px;
+        }
+         .yellow-text {
+        color: #212529;
+        font-size: 1.5em;
+    }
+    section {
+            width: 300px;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        section:nth-child(1) {
+            margin-right: 20px;
+        }
+
+        section:nth-child(2) {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barre de Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">EcheriFacilement</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">À Propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section de Présentation (Jumbotron) -->
+    <div class="jumbotron">
+       <h1 class="display-4">Bienvenue sur EcheriFacilement !</h1>
+
+        <p class="lead">M3a <span class="yellow-text">EcheriFacilement</span> Mata3yach Ga3 ! .</p>
+        <a href="toutProduits.jsp" class="btn btn-outline-primary">Explorer</a>
+
+    </div>    
+    <div id="body1">
+        
+        <section onclick="window.location.href='./toutProduits.jsp'">
+        <h2>Acheteur</h2>
+        <p>En tant qu'acheteur, explorez notre large gamme de produits...</p>
+    </section>
+
+         <section onclick="window.location.href='./pageVendeur.jsp'">
+    
+        <h2>Vendeur</h2>
+        <p>En tant que vendeur, gérez votre catalogue de produits...</p>
+    </section>
+    </div>
+     
+     <footer class="bg-light text-center p-3">
+        <p>&copy; 2023 Votre Application. Tous droits réservés.</p>
+    </footer>
+    
+    <!-- Scripts Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

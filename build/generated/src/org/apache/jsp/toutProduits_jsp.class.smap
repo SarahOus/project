@@ -1,0 +1,19 @@
+SMAP
+toutProduits_jsp.java
+JSP
+*S JSP
+*F
++ 0 toutProduits.jsp
+toutProduits.jsp
+*L
+1,63:49
+64:112,2
+65,2:114,3
+67,12:120
+79,6:133
+84,2:139
+86,5:141,3
+91,3:156
+94:159,3
+95,8:162
+*E
